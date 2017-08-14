@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: fSK66LY7nyZvSkc3t3rh206efDLGP6BuKr7K1b3ZXGjhoP22TSZqPgWg7USZkkCnOQSoCyPPFpedA968YC/sxNjxkhPOOaMWPAj/L6JK69afS+f7MDKXXNYGy0je1DGrEUvIjlfki47zLPpkYYedBhPZ+15LmHkEZJKygoaGrQur6AFGcAjLhaEM0M3QjSyjk8YppNbVCrnOh4VBZ10Wa/Lk+9PwWQsIsgsxmQ6uauuydqfFPnbDqzGFOtAmtrE7Ifhqo5lQTT35PiG3bZrUEDEQ0ivWcuHc1Ytt9egBstg6jV+/V3XBMqcQMEjknM3GAEZS7/2HfZtMyDHsyDzJZ+5i/U2QDYT6NWU5HIYfjxb8qbbKS07M/JlnQR79dCyzjrjaTG1cTZ0e3IEFqPH/Q3Ge0+WZK/XMkrD88/PS6UcYvd9+InuiIChrxb/bkLpEWbXJ/ftzs5z4Q2MonFoVCuEQHWr96/Jpu+wzQ3Nfqx/BypGMlAQamwI9rxKXeiYhW30sNQLzFOywmX9OYiy4bkyJKLPGzA+zmtUkq7AaxgIpIFrm9WUyMadfILdV+PXQgPCDAj86pXQy4qyxp0fSDjBJjyFGWCs2kUQgNB0k83l+bdeo7Z5LtZCjqHTY5dNR0bZHn1UwjV9BTBobsg/nw/QCdM9dSoLA7NXI4Qh53oM=
+  app: blooming-reaches-51759
+  on:
+    repo: preston206/Blog-app-mongoose-challenge-solution
