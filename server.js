@@ -2,6 +2,7 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const mongoose = require('mongoose');
 const morgan = require('morgan');
+const mocha = require('mocha');
 
 const {DATABASE_URL, PORT} = require('./config');
 const {BlogPost} = require('./models');
